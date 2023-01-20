@@ -5,12 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <script src="https://kit.fontawesome.com/0443f3df3f.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
 
-    <h1>Hello World</h1>
-    <h2>hello Worl d</h2>
+    <style>
+        
+    </style>
+    <div class="input-group">
+        <input type="text" placeholder="Entrez une valeur ici" id="in">
+    <button type="button" onclick="getValue();">Récupérer la valeur</button>
+    </div>
+    
+    <div class="contain">
+        <div class="top"><div class="icons"><img class="icon"src="http://openweathermap.org/img/w/" alt=""></div>
+            <div class="tempcontain"><i class="fa-solid fa-temperature-three-quarters"></i><span class="temp"></span></div>
+            <div class="etatcontain"><i class="fa-solid fa-cloud-sun"></i><span class="etat"></span></div>
+            <div class="villecontain"><i class="fa-solid fa-location-dot"></i><span class="ville"></span></div>
+        </div>
+        <div class="bottom">
+            <div class="left"></div>
+        </div>
+
+    </div>
+    
+    
     <script src="app.js"></script>
 </body>
 </html>
